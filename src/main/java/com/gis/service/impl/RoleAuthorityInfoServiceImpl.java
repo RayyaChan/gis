@@ -1,12 +1,12 @@
-package com.gis.system.service.impl;
+package com.gis.service.impl;
 
 
 import com.gis.model.RoleAuthorityInfo;
 import com.gis.model.RoleAuthorityInfoCriteria;
 import java.util.List;
 
-import com.gis.system.mapper.RoleAuthorityInfoMapper;
-import com.gis.system.service.RoleAuthorityInfoService;
+import com.gis.mapper.RoleAuthorityInfoMapper;
+import com.gis.service.RoleAuthorityInfoService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

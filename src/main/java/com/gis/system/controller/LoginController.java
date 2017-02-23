@@ -4,8 +4,8 @@ import com.gis.model.AuthorityInfo;
 import com.gis.model.UserInfo;
 import com.gis.model.UserInfoCriteria;
 import com.gis.system.dto.AuthorityDTO;
-import com.gis.system.service.AuthorityInfoService;
-import com.gis.system.service.UserInfoService;
+import com.gis.service.AuthorityInfoService;
+import com.gis.service.UserInfoService;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -19,6 +19,7 @@ import java.util.List;
 
 /**
  * Created by Administrator on 2017/2/16 0016.
+ * 登录注销模块
  */
 @Controller
 public class LoginController {
@@ -29,7 +30,7 @@ public class LoginController {
 
     @RequestMapping("/")
     public String index(){
-        return "index";
+        return "login";
     }
     @RequestMapping(value = "/login",method = RequestMethod.POST)
     public String login(String username, String passsword, ModelMap map) {

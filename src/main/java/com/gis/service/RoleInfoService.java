@@ -1,4 +1,4 @@
-package com.gis.system.service;
+package com.gis.service;
 
 import com.gis.model.RoleInfo;
 import com.gis.model.RoleInfoCriteria;

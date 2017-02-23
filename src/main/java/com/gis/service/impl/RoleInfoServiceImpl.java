@@ -1,9 +1,9 @@
-package com.gis.system.service.impl;
+package com.gis.service.impl;
 
 import com.gis.model.RoleInfo;
 import com.gis.model.RoleInfoCriteria;
-import com.gis.system.mapper.RoleInfoMapper;
-import com.gis.system.service.RoleInfoService;
+import com.gis.mapper.RoleInfoMapper;
+import com.gis.service.RoleInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

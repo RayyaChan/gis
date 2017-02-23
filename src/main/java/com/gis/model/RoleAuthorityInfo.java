@@ -5,7 +5,7 @@ import java.io.Serializable;
 
 /**
  * 角色权限信息 role_authority_info
- * 2017/02/22 10:28
+ * 2017/02/22 15:55
 */
 public class RoleAuthorityInfo implements Serializable {
     private static final long serialVersionUID = 1L;

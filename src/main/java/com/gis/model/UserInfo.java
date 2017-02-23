@@ -4,7 +4,7 @@ package com.gis.model;
 import java.io.Serializable;
 
 /**
- * 2017/02/22 10:28
+ * 2017/02/22 15:55
 */
 public class UserInfo implements Serializable {
     private static final long serialVersionUID = 1L;

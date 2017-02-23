@@ -1,12 +1,12 @@
-package com.gis.system.service.impl;
+package com.gis.service.impl;
 
 
 import com.gis.model.AuthorityInfo;
 import com.gis.model.AuthorityInfoCriteria;
 import java.util.List;
 
-import com.gis.system.mapper.AuthorityInfoMapper;
-import com.gis.system.service.AuthorityInfoService;
+import com.gis.mapper.AuthorityInfoMapper;
+import com.gis.service.AuthorityInfoService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

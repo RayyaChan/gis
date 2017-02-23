@@ -1,4 +1,4 @@
-package com.gis.system.mapper;
+package com.gis.mapper;
 
 import com.gis.model.RoleInfo;
 import com.gis.model.RoleInfoCriteria;
